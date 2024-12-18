@@ -1,0 +1,241 @@
+/* desktop */
+@media screen and (max-width: 1400px) {
+  /* head section */
+  .layer-header .continar {
+    width: 80%;
+  }
+  .content-heading {
+    top: 35%;
+    left: 33%;
+  }
+  /* about section */
+  .about .continar {
+    width: 100%;
+  }
+  .img-about {
+    width: 40%;
+    float: left;
+    border: 9px solid #555555;
+    padding-right: 10px;
+  }
+
+  .content-about {
+    width: 55%;
+    float: right;
+    margin-top: 30px;
+    font-size: medium;
+  }
+  .info1 {
+    float: left;
+    width: 50%;
+  }
+  .info2 {
+    float: right;
+    width: 50%;
+  }
+
+  /* our services */
+  .our-services .continar {
+    width: 100%;
+  }
+  .service {
+    width: 25%;
+    float: left;
+    margin: auto;
+  }
+  /* our portofolio */
+
+  .our-portfilo {
+    width: 90%;
+  }
+  .card .overlay i {
+    top: 80%;
+    left: 85%;
+  }
+  /* Client's Feedback */
+  .feed {
+    width: 80%;
+  }
+  /* blogs */
+  .blogs .continar {
+    width: 90%;
+    margin: auto;
+  }
+  .blogs .continar .blog {
+    width: 25%;
+  }
+  .blogs .continar .blog .blog-wrppar iframe {
+    height: 19%;
+  }
+  /* contact us */
+  .contact-us .continar {
+    width: 70%;
+  }
+}
+
+/* tab */
+@media screen and (max-width: 992px) {
+  /* head section */
+  .layer-header .continar {
+    width: 90%;
+  }
+  .content-heading {
+    top: 40%;
+    left: 20%;
+  }
+  /* about section */
+  .about .continar {
+    width: 100%;
+  }
+  .img-about {
+    width: 40%;
+    float: left;
+    border: none;
+  }
+
+  .content-about {
+    width: 55%;
+    float: right;
+    margin-top: 30px;
+    font-weight: 100;
+  }
+  .info1 {
+    float: left;
+    width: 50%;
+  }
+  .info2 {
+    float: right;
+    width: 50%;
+  }
+
+  /* our services */
+  .our-services .continar {
+    width: 90%;
+    margin: auto;
+  }
+  .service {
+    width: 40%;
+    float: left;
+    margin: auto;
+  }
+  /* our portofilio */
+  .card {
+    width: 50%;
+  }
+
+  /* our blog */
+  .blogs .continar {
+    width: 90%;
+  }
+  .blogs .continar .blog .blog-wrppar iframe {
+    height: 13%;
+  }
+}
+
+/* phone */
+@media screen and (max-width: 768px) {
+  /* head section */
+  .layer-header .continar {
+    width: 100%;
+  }
+  .content-heading {
+    top: 40%;
+    left: 15%;
+  }
+  /* about section */
+  .about .continar {
+    width: 100%;
+  }
+  .img-about {
+    width: 100%;
+    float: none;
+    border: none;
+    margin-bottom: 50px;
+  }
+  .content-about {
+    width: 100%;
+    float: none;
+    margin-left: 30px;
+  }
+  .info1,
+  .info2 {
+    float: none;
+  }
+
+  /* our services */
+  .our-services .continar {
+    width: 100%;
+  }
+  .service {
+    width: 70%;
+    float: none;
+    margin: auto;
+  }
+  /* our portofilo */
+  .card {
+    width: 100%;
+  }
+  .img-card {
+    width: 70%;
+    margin: auto;
+  }
+
+  /* statictics */
+  .statics {
+    height: 600px;
+  }
+  .statics .continar {
+    width: 50%;
+  }
+  .sta1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* feedback */
+  .feed {
+    width: 60%;
+    
+  }
+  .card-feed {
+   margin-left: -50px;
+    width: 420px;
+    height: 420px;
+  }
+  .clint-img {
+    top: 10%;
+    left: 5%;
+  }
+  .card-feed .content h3 {
+    top: 45%;
+    left: 10px;
+  }
+  .card-feed .content p.loc {
+    top: 55%;
+    left: 10px;
+  }
+  .card-feed .content p {
+    top: 63%;
+    left: 10px;
+  }
+  .card-feed .content .stars {
+    top: 90%;
+    left: 10px;
+  }
+
+  /* our blog */
+  .blogs .continar .blog {
+    width: 70%;
+    margin-left: 100px;
+  }
+
+  /* contact us */
+  form #name,
+  form #email,
+  form #subject,
+  form #massage {
+    float: none;
+    width: 100%;
+    margin: 10px;
+  }
+}
